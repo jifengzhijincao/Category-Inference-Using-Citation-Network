@@ -1,7 +1,7 @@
 # Category-Inference-Using-Citation-Network
 
 ### Authors
-We are all students from the school of Electronic Engineering and Computer Science of Peking University. The following are in alphabetical order and every member contributed equally.
+We are all students from the school of Electronic Engineering and Computer Science of Peking University. Every member contributed equally and the following names are in alphabetical order.
 * Xiuping Cui
 * Naiqing Guan
 * [Ziqi Pang](https://www.linkedin.com/in/ziqi-pang-8b5992158/)(pangziqi@pku.edu.cn)
