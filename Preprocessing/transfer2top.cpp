@@ -22,7 +22,7 @@ int dict[10][20] =
 int length_for_search[10] = {4, 7, 19, 3, 4, 4, 7, 9, 9, 5};
 int main()
 {
-	FILE *fread = fopen("D:\\Paper Network\\Cora\\paper_label.txt", "r");
+	FILE *fread = fopen("Cora\\paper_label.txt", "r");
 	FILE *fwrite = fopen("paper_labels.txt", "w");
 	
 	char *topic = new char[100];
