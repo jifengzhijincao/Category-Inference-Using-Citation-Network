@@ -44,7 +44,7 @@ int main()
 					}
 			}
 		}
-		fprintf(fwrite, "%s\t%d\n", topic, label);
+		fprintf(fwrite, "%s %d\n", topic, label);
 		count++;
 	}
 	fclose(fread);
