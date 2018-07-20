@@ -1,9 +1,9 @@
 /*
-	选取的是测试集和训练集
-	读入：当前目录的 paper_labels.txt
-	训练集：当前目录的 train.txt
-	测试集：当前目录的 test.txt
-	要求输入：数据集用作测试集的数据的百分比
+  We select the training set and test set
+  Input: paper_labels.txt	
+  Training set: train.txt	
+  Test set: test.txt	
+  Input arguments: the percentage of the test set
 */
 #include<fstream>
 #include<iostream>
@@ -20,7 +20,7 @@ map<int, int> dataset;
 set<int> testSet;
 set<int> trainSet;
 
-//随机选取(%index)的数据作为测试集(testSet)，剩下的为训练集(trainSet)
+// Randomly select (%index)data as test data and the remain are training data
 void getRandom(int index)
 {
 	srand(time(NULL));
